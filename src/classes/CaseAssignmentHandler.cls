@@ -1,6 +1,5 @@
 public with sharing class CaseAssignmentHandler {
     // Internal flag for test mode
-    // testing git to git
     public static Boolean isTestMode = false;
 
     public static void autoAssign(List<Case> cases) {
