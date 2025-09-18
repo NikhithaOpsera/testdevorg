@@ -1,6 +1,6 @@
 @isTest
 private class CaseHelperTest {
-//Testing 123
+
     @isTest
     static void testGetOpenHighPriorityCaseSubjects() {
         // Create test data
