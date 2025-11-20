@@ -32,6 +32,7 @@
             <stringValue>{&quot;location&quot;:&quot;top&quot;,&quot;type&quot;:&quot;simple&quot;}</stringValue>
         </value>
     </customProperties>
+    <description>added dependency</description>
     <environments>Default</environments>
     <interviewLabel>Create Simple Account {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Create Simple Account</label>
@@ -80,6 +81,12 @@
                 <elementReference>Phone.value</elementReference>
             </value>
         </inputAssignments>
+        <inputAssignments>
+            <field>State_of_Residence__c</field>
+            <value>
+                <elementReference>State_of_Residence</elementReference>
+            </value>
+        </inputAssignments>
         <object>Account</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordCreates>
@@ -93,7 +100,7 @@
         <allowPause>true</allowPause>
         <fields>
             <name>Success</name>
-            <fieldText>&lt;p&gt;The Account has been created successfully!&lt;/p&gt;</fieldText>
+            <fieldText>&lt;h2&gt;{!$Label.&lt;strong&gt;Flow_Success_Message&lt;/strong&gt;}&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
             <styleProperties>
                 <verticalAlignment>
@@ -158,6 +165,22 @@
             <dataType>String</dataType>
             <fieldText>Industry</fieldText>
             <fieldType>DropdownBox</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>false</isRequired>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+        </fields>
+        <fields>
+            <name>State_of_Residence</name>
+            <dataType>String</dataType>
+            <fieldText>State of Residence</fieldText>
+            <fieldType>InputField</fieldType>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>false</isRequired>
             <styleProperties>
