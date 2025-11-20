@@ -3,6 +3,7 @@
     <apiVersion>65.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <choices>
+       <!-- This is an XML comment -->
         <name>Agriculture</name>
         <choiceText>Agriculture</choiceText>
         <dataType>String</dataType>
