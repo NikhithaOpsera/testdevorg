@@ -3,7 +3,7 @@ private class CaseHelperTest {
 
     @isTest
     static void testGetOpenHighPriorityCaseSubjects() {
-        // Demo 11/21
+        // Create test data
         Case case1 = new Case(Subject = 'High priority issue', Priority = 'High', Status = 'New');
         Case case2 = new Case(Subject = 'Another high case', Priority = 'High', Status = 'In Progress');
         Case case3 = new Case(Subject = 'Closed case', Priority = 'High', Status = 'Closed');
