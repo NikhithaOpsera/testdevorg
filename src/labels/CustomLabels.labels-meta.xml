@@ -15,6 +15,20 @@
         <value>The Account has been created successfully!</value>
     </labels>
     <labels>
+        <fullName>Opsera_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Opsera_Label</shortDescription>
+        <value>Opsera_Label</value>
+    </labels>
+    <labels>
+        <fullName>Opsera_Label_Success</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Opsera_Label Success</shortDescription>
+        <value>Opsera_Label Success</value>
+    </labels>
+    <labels>
         <fullName>Toast_message</fullName>
         <language>en_US</language>
         <protected>true</protected>
