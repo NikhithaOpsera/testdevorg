@@ -4,6 +4,9 @@ public with sharing class CaseHelper {
      * Gets the subjects of all open high-priority cases.
      * @return List of case subjects.
      */
+    
+    //Demo 11/21
+    //Demo FPL
     public static List<String> getOpenHighPriorityCaseSubjects() {
         List<Case> highPriorityCases = [
             SELECT Id, Subject
