@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Failure_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Failure Message</shortDescription>
+        <value>Sorry! there is an error</value>
+    </labels>
+    <labels>
+        <fullName>Flow_Success_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Flow Success Message</shortDescription>
+        <value>The Account has been created successfully!</value>
+    </labels>
+    <labels>
+        <fullName>Toast_message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Toast message</shortDescription>
+        <value>The system is currently in progress</value>
+    </labels>
+</CustomLabels>
