@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>Apex_Expception</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Apex Expception</shortDescription>
+        <value>There is an issue with class</value>
+    </labels>
+    <labels>
+        <fullName>Callout_Exception</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Callout Exception</shortDescription>
+        <value>500 error. Server not available</value>
+    </labels>
+    <labels>
         <fullName>Failure_Message</fullName>
         <language>en_US</language>
         <protected>true</protected>
