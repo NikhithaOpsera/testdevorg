@@ -10,7 +10,7 @@ private class CaseHelperTest {
         Case case3 = new Case(Subject = 'Closed case', Priority = 'High', Status = 'Closed');
         Case case4 = new Case(Subject = 'Low priority case', Priority = 'Low', Status = 'New');
         insert new List<Case>{case1, case2, case3, case4};
-//FPL Demo 2
+
         // Call the method
         List<String> results = CaseHelper.getOpenHighPriorityCaseSubjects();
 
